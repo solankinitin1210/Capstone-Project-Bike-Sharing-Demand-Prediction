@@ -32,3 +32,6 @@ The dataset contains weather information (Temperature, Humidity, Windspeed, Visi
 
 • Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours
 ## Conclusions:
+- Multiple regressors were compared and evaluated with Adj_R2 and RMSE scores. With the best model, Bagging achieved an accuracy of 86% and RMSE of 234, which indicates that machine learning indeed can predict bike counts required for a stable supply of rental bikes
+- The Bagging regressor performed the best out of 7 traditional models on the data set. Which has produced the highest accuracy of Adj_R2 of 86%. The reason why this algorithm produced good results is that Bagging decreases variance, not bias, and solves over-fitting issues in a model. 
+- The feature temperature accounts for the highest importance therefore people of Seoul are more likely to stay home during colder days than on warmer ones. Depending on the feature importance of temperature and study on people activity associated with whether the temperature is the most important factor when it comes to sharing bikes.
